@@ -1,23 +1,20 @@
 # dog-breed-identification
 
 ### Kaggle Competition & Data
-Download the data and prepare the data in below directories.
+Download the data and prepare the data in below directories using data/data_prep.py
+
 https://www.kaggle.com/c/dog-breed-identification
 
     "```bash\n",
     ".\n",
     "├── data\n",
-    "│   ├── classify_by_dir.sh\n",
     "│   ├── labels.csv\n",
     "│   ├── sample_submission.csv\n",
-    "│   ├── sample_submission.csv.zip\n",
     "│   ├── test\n",
-    "│   ├── test.zip\n",
+    "|   |     | x\n",
     "│   ├── train\n",
-    "│   ├── train.zip\n",
-    "│   ├── unsorted\n",
-    "│   └── val\n",
-    "├── keras.best.h5\n",
-    "├── keras.ipynb\n",
-    "└── submit.csv\n",
+    "|   |     | .... classes folders
+    "│   └── valid\n",
+    "|   |     | .... classes folders
+    "│   ├── original_train_data\n",
     "```\n"
