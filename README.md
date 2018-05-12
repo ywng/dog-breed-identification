@@ -18,9 +18,18 @@ https://www.kaggle.com/c/dog-breed-identification
 
 ### How to Run
 #### Locally
-After finishing the data setup preparation, you can just simple run
-''' python3 transfer-xyz.py
-or run your jupyter notebook.
-
-
+After finishing the data setup preparation, you can just simple run your jupyter notebook or 
+```bash
+$python3 transfer-xyz.py
+```
 #### HPC
+Connect to prince cluster:
+```bash
+$ssh gw.hpc.nyu.edu
+$ssh prince
+$cd /scratch/$User/
+
+$sbatch run-transfer-densenet201.s 
+$squeue -u ywn202
+$cat slurm-6160773
+```
