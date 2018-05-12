@@ -15,3 +15,12 @@ https://www.kaggle.com/c/dog-breed-identification
     │   └── valid
     |   |     | .... classes folders
     │   ├── training_images
+
+### How to Run
+#### Locally
+After finishing the data setup preparation, you can just simple run
+''' python3 transfer-xyz.py
+or run your jupyter notebook.
+
+
+#### HPC
