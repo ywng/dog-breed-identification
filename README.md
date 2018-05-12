@@ -1,4 +1,4 @@
-# dog-breed-identification
+# Dog Breed Identification
 
 ### Kaggle Competition & Data
 Download the data and prepare the data in below directories using data/data_prep.py
